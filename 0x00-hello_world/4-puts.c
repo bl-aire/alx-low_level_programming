@@ -3,7 +3,7 @@
  * main is the Entry point
  *
  * Return 0 (Succss) always
- * /
+ */
 int main(voud)
 {
     puts("\"Programming is like building a multilingual puzzle");
