@@ -21,14 +21,14 @@ n = rand() - RAND_MAX / 2;
 
 if (n > 0)
 {
-  printf("", )
+  printf("%d is positive", n );
 }
 else if (n == 0 )
 {
-  printf("", )
+  printf("%d is zero", n);
 }
 else{
-  printf("", )
+  printf("%d is negative", n);
 }
 
 return (0);
