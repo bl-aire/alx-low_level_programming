@@ -6,18 +6,14 @@
  */
 int main(void)
 {
-unsigned char x = '0';
-int i;
+unsigned char i;
 for (i = 0; i < 10; i++)
 {
-putchar(x);
-x++
+putchar(i);
 }
-x = '1';
-for (i = 0; i < 6; i++)
+for (i = 'a'; i < 'g'; i++)
 {
-putchar('0' + a);
-x++
+putchar(i);
 }
 putchar('\n');
 return (0);
