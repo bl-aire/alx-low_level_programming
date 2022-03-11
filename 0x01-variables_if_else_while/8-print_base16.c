@@ -9,7 +9,7 @@ int main(void)
 unsigned char i;
 for (i = 0; i < 10; i++)
 {
-putchar(i);
+putchar('0' + i);
 }
 for (i = 'a'; i < 'g'; i++)
 {
