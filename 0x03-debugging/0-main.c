@@ -1,13 +1,16 @@
 #include "main.h"
+
 /**
- * main - entry point
+ * main - Debugging.
  *
- * Return: Always 0(Suuccessful)
+ * Return: 0
  */
+
 int main(void)
 {
-int i;
-i = 0;
-positive_or_negative(i);
-return (0);
+	int i;
+
+	i = 0;
+	positive_or_negative(i);
+	return (0);
 }
