@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include "2-strlen.c"
 /**
  * _puts(char *str): prints string followed by new line to stdout
  * @str: string to be printed
