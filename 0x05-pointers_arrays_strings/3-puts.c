@@ -1,8 +1,8 @@
 #include "main.h"
-
+#include "2-strlen.c"
 /**
- * _puts(char *str): prints string followed by new line to stdout
- * @str: string to be printed
+ * _puts - prints a string, followed by new line to stdout
+ * @str: pointer to string to be printed
  */
 void _puts(char *str)
 {
