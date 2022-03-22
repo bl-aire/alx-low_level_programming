@@ -1,7 +1,7 @@
 #include "main.h"
 #include "2-strlen.c"
 /**
- * puts2 - prints every other character of a string, starting with the first character, followed by a new line * 
+ * puts2 - prints characters of a string 
  * @str: string to be printed
  */
 void puts2(char *str)
@@ -15,4 +15,4 @@ _putchar(str[i]);
 }
 }
 _putchar('\n');
-
+}
