@@ -1,7 +1,7 @@
 #include "main.h"
-#include "2-strlen.c"
+#include "strlen.c"
 /**
- * puts_half - puts half of int
+ * puts_half -prints half of int
  *
  * @str: string to be split
  */
