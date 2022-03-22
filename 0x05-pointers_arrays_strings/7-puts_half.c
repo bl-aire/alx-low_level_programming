@@ -1,5 +1,5 @@
 #include "main.h"
-#include "strlen.c"
+#include "2-strlen.c"
 /**
  * puts_half -prints half of int
  *
