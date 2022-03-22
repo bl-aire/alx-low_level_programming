@@ -1,20 +1,21 @@
-
 #include "main.h"
-#include <stdio.h>
+#include "2-strlen.c"
 /**
- * print_array - prints array
- * @a: array pointer
- * @n: number of times to print
+ * puts_half - puts half of int
  *
+ * @str: string to be split
  */
-void print_array(int *a, int n)
+void puts_half(char *str)
 {
 int i;
-for (i = 0; i < n; i++)
+int oE = 0;
+if (_strlen(str) % 2 != 0)
 {
-printf("%d", a[i]);
-if (i != n - 1)
-printf(", ");
+oE += 1;
 }
-printf("\n");
+for (i = (_strlen(str) + oE) / 2; i < _strlen(str);i++)
+{
+_putchar(str[i]);
+}
+_putchar('\n');
 }
