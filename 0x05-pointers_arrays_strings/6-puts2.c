@@ -1,7 +1,7 @@
 #include "main.h"
 #include "2-strlen.c"
 /**
- * puts2 - prints characters of a string 
+ * puts2 - prints characters of a string
  * @str: string to be printed
  */
 void puts2(char *str)
