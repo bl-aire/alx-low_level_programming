@@ -19,7 +19,7 @@ if (size > 0)
 m *= 10;
 size++;
 }
-count++
+count++;
 }
 for (i = count - size; i < count; i++)
 {
